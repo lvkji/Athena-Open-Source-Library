@@ -1,0 +1,96 @@
+.hero {
+    background-color: #e6f0ff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero .button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 25px;
+    background-color: #0077cc;
+    color: black;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.hero .button:hover {
+    background-color: #005fa3;
+}
+
+.features-grid {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+}
+
+.features-grid h2 {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.feature {
+    background: #f9f9f9;
+    padding: 20px;
+    border-left: 4px solid #0077cc;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}
+
+.how-it-works {
+    background-color: #f1f1f1;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.how-it-works ol {
+    list-style-position: inside;
+    padding-left: 0;
+    max-width: 700px;
+    margin: auto;
+    text-align: left;
+}
+
+.testimonials {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.testimonials blockquote {
+    font-style: italic;
+    color: #333;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 20px;
+}
+.navbar-logo {
+    height: 100px;
+    width: auto;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
