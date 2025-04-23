@@ -1,64 +1,25 @@
-📚 Athena: An Open Academic Library Platform
-Athena is a user-friendly, scalable, and secure online library management system designed to facilitate the sharing and access of non-copyrighted books, documents, and open-source academic materials. Built for students, authors, and administrators, Athena serves as a comprehensive knowledge-sharing hub that promotes verified, high-quality educational content.
+# 📚 Athena LMS
 
-🚀 Project Goals
-Enable easy upload, organization, and access to academic resources.
+**Athena** is a user-friendly online platform designed to allow students, authors, and administrators to share and access non-copyrighted academic materials such as books, articles, and open-source documents. The system is intended to fill educational gaps by creating a free and reliable resource hub for verified, high-quality content contributed by the academic community.
 
-Provide a verification system for quality assurance by trusted authors and administrators.
+Athena features a role-based architecture supporting three user types: Students can upload and browse materials, bookmark resources, filter by subject or verification status, and provide ratings and feedback. Authors are empowered to upload, categorize, and verify academic materials, ensuring content relevance and accuracy. Administrators manage user permissions, moderate uploads, and enforce platform quality standards.
 
-Support educational equity by offering free access to credible materials across a variety of disciplines.
+The system supports long-term academic growth by preserving uploads across semesters and offering features like content filtering, sorting, and verification by trusted contributors. Planned future enhancements include personalized content recommendations using machine learning, collaborative annotation tools, discussion forums tied to each resource, gamified engagement metrics, and integration with popular learning management systems such as Canvas and Blackboard.
 
-Preserve and categorize content over semesters for long-term accessibility.
+Athena is built using a full LAMP stack: a PHP backend, MariaDB database, and HTML/CSS (Tailwind) frontend. It is designed for scalability, security, and usability, ensuring 24/7 access, robust database performance, and privacy-aware handling of user data. Athena will continue to grow as an open-access educational library shaped by student needs and academic expertise.
 
-👤 User Roles
-Students: Search, upload, bookmark, and rate academic resources.
+---
 
-Authors: Upload, verify, categorize, and manage content in their field of expertise.
+## 👥 Project Team
 
-Administrators: Oversee user permissions, content approval, and site moderation.
+- Andrew Ignatius  
+- Hung Nguyen  
+- Kashama Mehta  
+- Anthony Anderson
 
-💡 Key Features
-📚 Upload and browse books and articles.
+---
 
-✅ Verification system for credible uploads.
+## ⚠️ Legal Note
 
-🔍 Filter content by subject, verification status, and tags.
+All content shared on Athena must be open access or non-copyrighted. Authors and administrators are responsible for verifying the credibility and legality of all uploaded materials.
 
-💾 Preserve materials from prior semesters.
-
-📈 Future support for engagement metrics, forums, and LMS integration.
-
-🧱 Tech Stack
-Frontend: HTML, CSS (Tailwind), JavaScript
-
-Backend: PHP, MariaDB
-
-Database: Relational schema supporting role-based access (Students, Authors, Admins), uploads, and verification logs.
-
-🔐 Security & Scalability
-Role-based access control
-
-Privacy-aware handling of user data
-
-Prepared for DDoS mitigation and database scaling
-
-🧪 Future Enhancements
-Personalized recommendations powered by ML
-
-Collaborative annotations (like Google Docs)
-
-Engagement-based rewards system
-
-API integration with Canvas/Blackboard
-
-🧑‍💻 Contributors
-Andrew Ignatius
-
-Hung Nguyen
-
-Kashama Mehta
-
-Anthony Anderson
-
-📜 License
-This project is intended for educational use only. All uploaded material must be non-copyrighted and verified.
